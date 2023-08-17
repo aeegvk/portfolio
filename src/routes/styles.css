@@ -100,58 +100,18 @@ button:focus:not(:focus-visible) {
 	white-space: nowrap;
 }
 
-
 html {
-	width: 100%;
-	height: 100vh;
-	display: absolute;
-	align-items: center;
-	justify-content: center;
-	background-size: 300% 300%;
-	background-image: linear-gradient(
-		-45deg,
-		#22223B 0%,
-		#00001B 25%, 
-		#000011 51%,
-		#00001B 75%,
-		#22223B 100%
-	);
-	-webkit-animation: AnimateBG 10s ease infinite;
-			animation: AnimateBG 10s ease infinite;
+  	background-size: 400vw 100vh;
+	background-image: linear-gradient(90deg,#22223b,#311c45,#00001b,#22223b,#311c45);
+	animation-name: backgroundmovement;
+	animation-duration: 14s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	background-color: var(--color-bg-2);
 }
-
-@-webkit-keyframes AnimateBG {
-	0% {
-		background-position: 0% 50%;
-	}
-	25% {
-		background-position: 50% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	75% {
-		background-position: 50% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-	}
-
-	@keyframes AnimateBG {
-	0% {
-		background-position: 0% 50%;
-	}
-	25% {
-		background-position: 50% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	75% {
-		background-position: 50% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  
+/*creates movement of the background*/
+@keyframes backgroundmovement {
+	0% { background-position: 0% 0%; }
+	100% { background-position: 100% 0%; }
 }
