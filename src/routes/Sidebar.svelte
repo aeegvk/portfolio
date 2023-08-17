@@ -24,10 +24,11 @@
 <style>
 	section {
 		/* height: 100%; /* 100% Full-height */
-		position:fixed; /* Stay in place */
+		position:absolute; /* Stay in place */
 		z-index: 1; /* Stay on top */
 		top: 0; /* Stay at the top */
 		left: 10;
+		margin: 0 0 0 2em;
 		padding-top: 10em; /* Place content 60px from the top */
 		transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 	}
@@ -36,8 +37,6 @@
 		color: #fff;
 		width: 2em;
 		padding-left: 20px;
-		height: 100vh;
-		border-top-right-radius: 80px;
 	}
 
 	ul {

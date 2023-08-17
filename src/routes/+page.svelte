@@ -27,8 +27,18 @@
 		font-weight: 200;
 		text-align: right;
 		vertical-align: bottom;
-		position: fixed;
-		bottom: 3rem;
-		right: 7rem;
+		position: absolute;
+		bottom: 2rem;
+		right: 5rem;
+	}
+
+	/* On screens that are 600px or less, set the background color to olive */
+	@media screen and (max-width: 600px) {
+		.info {
+			bottom: 0em;
+			right: 1em;
+			width: 80%;
+			font-size: 1.5em;
+		}
 	}
 </style>

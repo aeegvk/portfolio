@@ -16,7 +16,7 @@
 <style>
 	.app {
 		display: block;
-		position: fixed;
+		position: absolute;
 		flex-direction: column;
 		min-height: 92vh;
 		min-width: 92vw;

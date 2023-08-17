@@ -10,7 +10,8 @@
 <style>
 	header {
 		padding: 2em;
-		position: fixed;
+		margin: 0 0 0 2em;
+		position: absolute;
 	}
 
 	h1 {

@@ -21,9 +21,9 @@
 		width: 3em;
 		text-align: right;
 		margin: 0 0 0 auto;
-		position: fixed;
-		bottom: 4em;
-		right: 5em;
+		position: absolute;
+		bottom: 2em;
+		right: 2em;
 	}
 
 	img {
