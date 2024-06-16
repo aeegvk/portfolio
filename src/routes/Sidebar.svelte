@@ -17,6 +17,10 @@
 			<li aria-current={$page.url.pathname.startsWith('/sverdle') ? 'page' : undefined}>
 				<a href="/sverdle">Sverdle</a>
 			</li>
+			<!-- route for qr -->
+			<li aria-current={$page.url.pathname.startsWith('/qr') ? 'page' : undefined}>
+				<a href="/qr">QR Generator</a>
+			</li>
 		</ul>
 	</nav>
 </section>
