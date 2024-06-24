@@ -298,7 +298,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jridgewell/sourcemap-codec@npm:^1.4.10, @jridgewell/sourcemap-codec@npm:^1.4.13, @jridgewell/sourcemap-codec@npm:^1.4.14, @jridgewell/sourcemap-codec@npm:^1.4.15":
+"@jridgewell/sourcemap-codec@npm:^1.4.10, @jridgewell/sourcemap-codec@npm:^1.4.14, @jridgewell/sourcemap-codec@npm:^1.4.15":
   version: 1.4.15
   resolution: "@jridgewell/sourcemap-codec@npm:1.4.15"
   checksum: 10c0/0c6b5ae663087558039052a626d2d7ed5208da36cfd707dcc5cea4a07cfc918248403dcb5989a8f7afaf245ce0573b7cc6fd94c4a30453bd10e44d9363940ba5
@@ -332,14 +332,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nodelib/fs.stat@npm:2.0.5, @nodelib/fs.stat@npm:^2.0.2":
+"@nodelib/fs.stat@npm:2.0.5":
   version: 2.0.5
   resolution: "@nodelib/fs.stat@npm:2.0.5"
   checksum: 10c0/88dafe5e3e29a388b07264680dc996c17f4bda48d163a9d4f5c1112979f0ce8ec72aa7116122c350b4e7976bc5566dc3ddb579be1ceaacc727872eb4ed93926d
   languageName: node
   linkType: hard
 
-"@nodelib/fs.walk@npm:^1.2.3, @nodelib/fs.walk@npm:^1.2.8":
+"@nodelib/fs.walk@npm:^1.2.8":
   version: 1.2.8
   resolution: "@nodelib/fs.walk@npm:1.2.8"
   dependencies:
@@ -742,7 +742,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"braces@npm:^3.0.2, braces@npm:~3.0.2":
+"braces@npm:~3.0.2":
   version: 3.0.2
   resolution: "braces@npm:3.0.2"
   dependencies:
@@ -1370,19 +1370,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.2.7":
-  version: 3.3.1
-  resolution: "fast-glob@npm:3.3.1"
-  dependencies:
-    "@nodelib/fs.stat": "npm:^2.0.2"
-    "@nodelib/fs.walk": "npm:^1.2.3"
-    glob-parent: "npm:^5.1.2"
-    merge2: "npm:^1.3.0"
-    micromatch: "npm:^4.0.4"
-  checksum: 10c0/b68431128fb6ce4b804c5f9622628426d990b66c75b21c0d16e3d80e2d1398bf33f7e1724e66a2e3f299285dcf5b8d745b122d0304e7dd66f5231081f33ec67c
-  languageName: node
-  linkType: hard
-
 "fast-json-stable-stringify@npm:^2.0.0":
   version: 2.1.0
   resolution: "fast-json-stable-stringify@npm:2.1.0"
@@ -1529,21 +1516,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob-parent@npm:^5.1.2, glob-parent@npm:~5.1.2":
-  version: 5.1.2
-  resolution: "glob-parent@npm:5.1.2"
-  dependencies:
-    is-glob: "npm:^4.0.1"
-  checksum: 10c0/cab87638e2112bee3f839ef5f6e0765057163d39c66be8ec1602f3823da4692297ad4e972de876ea17c44d652978638d2fd583c6713d0eb6591706825020c9ee
-  languageName: node
-  linkType: hard
-
 "glob-parent@npm:^6.0.2":
   version: 6.0.2
   resolution: "glob-parent@npm:6.0.2"
   dependencies:
     is-glob: "npm:^4.0.3"
   checksum: 10c0/317034d88654730230b3f43bb7ad4f7c90257a426e872ea0bf157473ac61c99bf5d205fad8f0185f989be8d2fa6d3c7dce1645d99d545b6ea9089c39f838e7f8
+  languageName: node
+  linkType: hard
+
+"glob-parent@npm:~5.1.2":
+  version: 5.1.2
+  resolution: "glob-parent@npm:5.1.2"
+  dependencies:
+    is-glob: "npm:^4.0.1"
+  checksum: 10c0/cab87638e2112bee3f839ef5f6e0765057163d39c66be8ec1602f3823da4692297ad4e972de876ea17c44d652978638d2fd583c6713d0eb6591706825020c9ee
   languageName: node
   linkType: hard
 
@@ -1930,21 +1917,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"magic-string@npm:^0.27.0":
-  version: 0.27.0
-  resolution: "magic-string@npm:0.27.0"
-  dependencies:
-    "@jridgewell/sourcemap-codec": "npm:^1.4.13"
-  checksum: 10c0/cddacfea14441ca57ae8a307bc3cf90bac69efaa4138dd9a80804cffc2759bf06f32da3a293fb13eaa96334b7d45b7768a34f1d226afae25d2f05b05a3bb37d8
-  languageName: node
-  linkType: hard
-
 "magic-string@npm:^0.30.0, magic-string@npm:^0.30.2":
   version: 0.30.2
   resolution: "magic-string@npm:0.30.2"
   dependencies:
     "@jridgewell/sourcemap-codec": "npm:^1.4.15"
   checksum: 10c0/1600038ff05b513aeb9a29c9f3090c85376c843220a5ddfdce72a00a6b24caa518aa754ee42db93604ff02434785ba29dc47ae34820f050e972ba94944921382
+  languageName: node
+  linkType: hard
+
+"magic-string@npm:^0.30.5":
+  version: 0.30.10
+  resolution: "magic-string@npm:0.30.10"
+  dependencies:
+    "@jridgewell/sourcemap-codec": "npm:^1.4.15"
+  checksum: 10c0/aa9ca17eae571a19bce92c8221193b6f93ee8511abb10f085e55ffd398db8e4c089a208d9eac559deee96a08b7b24d636ea4ab92f09c6cf42a7d1af51f7fd62b
   languageName: node
   linkType: hard
 
@@ -1972,23 +1959,6 @@ __metadata:
   version: 2.0.30
   resolution: "mdn-data@npm:2.0.30"
   checksum: 10c0/a2c472ea16cee3911ae742593715aa4c634eb3d4b9f1e6ada0902aa90df13dcbb7285d19435f3ff213ebaa3b2e0c0265c1eb0e3fb278fda7f8919f046a410cd9
-  languageName: node
-  linkType: hard
-
-"merge2@npm:^1.3.0":
-  version: 1.4.1
-  resolution: "merge2@npm:1.4.1"
-  checksum: 10c0/254a8a4605b58f450308fc474c82ac9a094848081bf4c06778200207820e5193726dc563a0d2c16468810516a5c97d9d3ea0ca6585d23c58ccfff2403e8dbbeb
-  languageName: node
-  linkType: hard
-
-"micromatch@npm:^4.0.4":
-  version: 4.0.5
-  resolution: "micromatch@npm:4.0.5"
-  dependencies:
-    braces: "npm:^3.0.2"
-    picomatch: "npm:^2.3.1"
-  checksum: 10c0/3d6505b20f9fa804af5d8c596cb1c5e475b9b0cd05f652c5b56141cf941bd72adaeb7a436fda344235cef93a7f29b7472efc779fcdb83b478eab0867b95cdeff
   languageName: node
   linkType: hard
 
@@ -2387,7 +2357,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"picomatch@npm:^2.0.4, picomatch@npm:^2.2.1, picomatch@npm:^2.3.1":
+"picomatch@npm:^2.0.4, picomatch@npm:^2.2.1":
   version: 2.3.1
   resolution: "picomatch@npm:2.3.1"
   checksum: 10c0/26c02b8d06f03206fc2ab8d16f19960f2ff9e81a658f831ecb656d8f17d9edc799e8364b1f4a7873e89d9702dff96204be0fa26fe4181f6843f040f819dac4be
@@ -2453,7 +2423,7 @@ __metadata:
     prettier-plugin-svelte: "npm:^2.10.1"
     qrcode: "npm:^1.5.3"
     svelte: "npm:^4.0.5"
-    svelte-check: "npm:^3.4.3"
+    svelte-check: "npm:^3.8.2"
     typescript: "npm:^5.0.0"
     vite: "npm:^4.4.2"
     vitest: "npm:^0.32.2"
@@ -2965,23 +2935,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte-check@npm:^3.4.3":
-  version: 3.5.0
-  resolution: "svelte-check@npm:3.5.0"
+"svelte-check@npm:^3.8.2":
+  version: 3.8.2
+  resolution: "svelte-check@npm:3.8.2"
   dependencies:
     "@jridgewell/trace-mapping": "npm:^0.3.17"
     chokidar: "npm:^3.4.1"
-    fast-glob: "npm:^3.2.7"
-    import-fresh: "npm:^3.2.1"
     picocolors: "npm:^1.0.0"
     sade: "npm:^1.7.4"
-    svelte-preprocess: "npm:^5.0.4"
+    svelte-preprocess: "npm:^5.1.3"
     typescript: "npm:^5.0.3"
   peerDependencies:
-    svelte: ^3.55.0 || ^4.0.0-next.0 || ^4.0.0
+    svelte: ^3.55.0 || ^4.0.0-next.0 || ^4.0.0 || ^5.0.0-next.0
   bin:
     svelte-check: bin/svelte-check
-  checksum: 10c0/399c46bc0b920e2f3b6b8622fcafb9cca62efeedd13265404341d27349d0072f29413ef0711f6e2686e5cc85e44f5b19ad741f975707b625296fd996673528ee
+  checksum: 10c0/18e3fd58992eaa56afab9af3dfb3cfc6f666647ad8c7d897daf805a19145eb7fa54bbe05cc39fdb70b498e72fa36a75fac5ed8bd29b8660c7d044eaddac5bcaa
   languageName: node
   linkType: hard
 
@@ -3012,13 +2980,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte-preprocess@npm:^5.0.4":
-  version: 5.0.4
-  resolution: "svelte-preprocess@npm:5.0.4"
+"svelte-preprocess@npm:^5.1.3":
+  version: 5.1.4
+  resolution: "svelte-preprocess@npm:5.1.4"
   dependencies:
     "@types/pug": "npm:^2.0.6"
     detect-indent: "npm:^6.1.0"
-    magic-string: "npm:^0.27.0"
+    magic-string: "npm:^0.30.5"
     sorcery: "npm:^0.11.0"
     strip-indent: "npm:^3.0.0"
   peerDependencies:
@@ -3026,12 +2994,12 @@ __metadata:
     coffeescript: ^2.5.1
     less: ^3.11.3 || ^4.0.0
     postcss: ^7 || ^8
-    postcss-load-config: ^2.1.0 || ^3.0.0 || ^4.0.0
+    postcss-load-config: ^2.1.0 || ^3.0.0 || ^4.0.0 || ^5.0.0
     pug: ^3.0.0
     sass: ^1.26.8
     stylus: ^0.55.0
     sugarss: ^2.0.0 || ^3.0.0 || ^4.0.0
-    svelte: ^3.23.0 || ^4.0.0-next.0 || ^4.0.0
+    svelte: ^3.23.0 || ^4.0.0-next.0 || ^4.0.0 || ^5.0.0-next.0
     typescript: ">=3.9.5 || ^4.0.0 || ^5.0.0"
   peerDependenciesMeta:
     "@babel/core":
@@ -3054,7 +3022,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/1ed64b96a91327a47992df0b82df708b5cda92e1da211edbedaf411e633a0be5a8425d19f996abc8dcef52dadd26b5474924dd9eeb30a7b409bf60c33b689d6c
+  checksum: 10c0/fe968ee1d599a2c59c5a695e23cd3c2d15c5c316ce76ae644908521476f2e81b69dcf0cd3492deeb0a06140af497f994e4baf524d3d2c93986fad1c9267524ae
   languageName: node
   linkType: hard
 
