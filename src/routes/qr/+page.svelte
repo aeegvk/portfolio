@@ -57,17 +57,17 @@
     let downloadLink;
 
     const generateQrCode = async () => {
+        if (!link) return;
         try {
             const options = {
                 errorCorrectionLevel: 'H',
                 width: 512,
-                margin: 7
+                margin: 5
             };
             await QRCode.toCanvas(canvas, link, options);
             const ctx = canvas.getContext('2d');
             if (ctx) {
                 ctx.font = '27px Arial';
-                const textWidth = ctx.measureText(customText).width;
                 const posX = 7;
                 const posY = canvas.height - 7;
                 ctx.fillText(customText, posX, posY);
@@ -78,4 +78,11 @@
             console.error('Error generating QR code', error);
         }
     };
+
+    $: if (link && customText) {
+        generateQrCode();
+    }
+
+    onMount(() => {
+    });
 </script>
