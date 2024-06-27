@@ -61,7 +61,7 @@
             const options = {
                 errorCorrectionLevel: 'H',
                 width: 512,
-                margin: 2
+                margin: 7
             };
             await QRCode.toCanvas(canvas, link, options);
             const ctx = canvas.getContext('2d');
